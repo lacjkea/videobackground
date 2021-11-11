@@ -5,7 +5,7 @@ img {
 /* Make the video responsive */
 #videoBG {
   object-fit: cover;
-  object-position: left bottom; /*center; /**/
+  object-position: left top; /*center; /**/
   width: 100vw;
   height: 70vh; /* indicate that there's something below / you can scroll */
   position: fixed;
