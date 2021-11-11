@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 /* Make the video responsive */
 #videoBG {
   object-fit: cover;
@@ -9,4 +13,10 @@
   left: 0;
   z-index: -100;
   filter: grayscale(100%);
+}
+
+@media only screen and (min-width: 577px) {
+  body {
+    background-color: hotpink;
+  }
 }

@@ -1,4 +1,4 @@
-const largeDevice = window.matchMedia("(min-width: 576px)").matches;
+const largeDevice = window.matchMedia("(min-width: 577px)").matches;
 
 // https://stackoverflow.com/questions/28605591/prevent-html5-videos-from-downloading-the-files-on-mobile-videojs
 if (largeDevice) {
