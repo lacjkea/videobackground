@@ -6,6 +6,7 @@ img {
   body {
     background-color: hotpink;
   }
+
   /* Make the video responsive */
   #videoBG {
     object-fit: cover;
