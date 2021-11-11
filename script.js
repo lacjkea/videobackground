@@ -6,11 +6,9 @@ if (largeDevice) {
   const sources = document.querySelectorAll("video#videoBG source");
   // reference for the video object the sources is contained inside
   const myVideo = document.querySelector("video#videoBG");
-
   for (var i = 0; i < sources.length; i++) {
     sources[i].setAttribute("src", sources[i].getAttribute("data-src"));
   }
-
   myVideo.load();
 }
 
