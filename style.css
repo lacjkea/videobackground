@@ -2,7 +2,7 @@ img {
   max-width: 100%;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 577px) {
   body {
     background-color: hotpink;
   }
