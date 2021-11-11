@@ -1,4 +1,8 @@
 /* Make the video responsive */
+body {
+  margin: 0;
+}
+
 #videoBG {
   object-fit: cover;
   object-position: center;
