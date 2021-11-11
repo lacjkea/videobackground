@@ -13,3 +13,5 @@ if (largeDevice) {
 
   myVideo.load();
 }
+
+// document.querySelector("video").controls = true;
